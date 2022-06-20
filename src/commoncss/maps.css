@@ -1,0 +1,73 @@
+.mapouter{
+    position:relative;
+    text-align:center;
+    height:500vh;
+    width:500vh;
+    margin: 0 0 0 -60rem ;
+    margin-top: 5rem;
+}
+
+.btnn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+/* ======= media queries (Medium Devices) ==== */
+@media screen and (max-width: 1024px) {
+    .mapouter{
+        position:relative;
+        text-align:center;
+        height:250vh;
+        width:250vh;
+        margin: 0 0 0 -20rem ;
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mapouter{
+        position:relative;
+        text-align:center;
+        height:250vh;
+        width:250vh;
+        margin: 0 0 0 -20rem ;
+        margin-top: 5rem;
+    }
+}
+/* ======= media queries (Medium Devices) ==== */
+@media screen and (max-width: 800px) {
+    .mapouter{
+        position:relative;
+        text-align:center;
+        height:150vh;
+        width:150vh;
+        margin: 0 0 0 -4rem ;
+        margin-top: 5rem;
+    }
+}
+/* ======= media queries (Medium Devices) ==== */
+@media screen and (max-width: 700px) {
+    .mapouter{
+        position:relative;
+        text-align:center;
+        height:150vh;
+        width:150vh;
+        margin: 0 0 0 -7rem ;
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mapouter{
+        position:relative;
+        text-align:center;
+        height:1rem;
+        width:1rem;
+        margin: 0 0 0 -3rem ;
+    }
+}

@@ -1,0 +1,297 @@
+.section .w-detailss{ 
+    left: 5%;
+    border-style: solid;      
+    width: 1000px;
+    height: 580px; 
+    position:relative;
+}
+
+.wedding-detailss:after{ 
+    border-style: solid;      
+    width: 500px;
+    height: 500px;
+     content:'';
+     position: absolute; 
+     top: 0; 
+     bottom: 0; 
+     left: 50%; 
+     margin-left: -.5px;
+	 width: 1px; background: #ccc; }
+.w-detailss span {
+    font-size: 2rem;
+}
+
+.about__me-imageee {
+    left: 35%;
+    position: absolute;
+    height: 30px;
+    width: 50%;
+}
+.about__me-bank {
+}
+.about__me-imageee p{
+    font-size: 1rem;
+}
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+    .section .w-detailss{ 
+        left: 15%; 
+        border-style: solid;      
+        width: 600px;
+        height: 400px; 
+    }
+    .w-detailss span {
+     font-size: 1.5rem;
+    }
+}
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+    .section .w-detailss{ 
+        left: 10%; 
+        border-style: solid;      
+        width: 550px;
+        height: 250px; 
+    }
+    .w-detailss span {
+
+     font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .section .w-detailss{ 
+        left: 10%; 
+        border-style: solid;      
+        width: 550px;
+        height: 350px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .section .w-detailss{ 
+        left: 10%; 
+        border-style: solid;      
+        width: 550px;
+        height: 350px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .section .w-detailss{ 
+        left: 10%; 
+        border-style: solid;      
+        width: 530px;
+        height: 350px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .section .w-detailss{ 
+        left: 10%; 
+        border-style: solid;      
+        width: 500px;
+        height: 350px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .section .w-detailss{ 
+        left: 10%; 
+        border-style: solid;      
+        width: 450px;
+        height: 330px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+    .about__me-imageee {
+        left: 25%;
+        position: absolute;
+        height: 30px;
+        width: 50%;
+        margin-top: 2rem;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .section .w-detailss{ 
+        left: 10%; 
+        border-style: solid;      
+        width: 430px;
+        height: 350px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+    .about__me-imageee {
+        left: 25%;
+        position: absolute;
+        height: 30px;
+        width: 50%;
+        margin-top: 2rem;
+    }
+}
+@media only screen and (max-width: 540px) {
+    .section .w-detailss{ 
+        left: 10%; 
+        border-style: solid;      
+        width: 400px;
+        height: 350px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+    .about__me-imageee {
+        left: 25%;
+        position: absolute;
+        height: 30px;
+        width: 50%;
+        margin-top: 2rem;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .section .w-detailss{ 
+        left: 12%; 
+        border-style: solid;      
+        width: 350px;
+        height: 350px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .section .w-detailss{ 
+        left: 6%; 
+        border-style: solid;      
+        width: 350px;
+        height: 330px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .section .w-detailss{ 
+        left: 6%; 
+        border-style: solid;      
+        width: 350px;
+        height: 330px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section .w-detailss{ 
+        left: 2%; 
+        border-style: solid;      
+        width: 350px;
+        height: 350px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .section .w-detailss{ 
+        left: 2%; 
+        border-style: solid;      
+        width: 350px;
+        height: 330px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+    
+@media only screen and (max-width: 360px) {
+    .section .w-detailss{ 
+        left: 1%; 
+        border-style: solid;      
+        width: 350px;
+        height: 330px; 
+    }
+    .w-detailss span {
+    margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .section .w-detailss{
+        border-style: solid;      
+        width: 350px;
+        height: 330px; 
+    }
+    .w-detailss span {
+    margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+    /* .about__me-imageee{
+        margin-top: 1rem;
+        width: 180px;
+    } */
+}
+
+
+@media only screen and (max-width: 320px) {
+    .section .w-detailss{
+        border-style: solid;      
+        width: 350px;
+        height: 330px; 
+    }
+    .w-detailss span {
+        margin-top: 0.5rem;
+     font-size: 0.8rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 310px) {
+    .section .w-detailss{ 
+        border-style: solid;      
+        width: 330px;
+        height: 350px; 
+    }
+    .w-detailss span {
+    margin-top: 0.5rem;
+     font-size: 0.9rem;
+    }
+    .about__me-imageee p{
+        font-size: 0.9rem;
+    }
+
+}
+}
+
+

@@ -1,0 +1,26 @@
+.w-details-areaa {
+    position: relative; z-index: 1; 
+    background-image: url(../images/AYXE0112.JPG);
+    background-size: cover; 
+}
+.weading__me h4{
+    color: #000;
+    font-size: 1.5rem;
+}
+.weading__me p {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+.weading__me span {
+    color: #000;
+    font-size: 1.5rem;
+}
+
+/* ======= media queries (Medium Devices) ==== */
+@media screen and (max-width: 1024px) {
+    .w-details-areaa {
+        z-index: 1; 
+        background-size: cover; 
+    }
+}
