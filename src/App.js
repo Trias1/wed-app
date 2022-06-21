@@ -24,16 +24,17 @@ const App = () => {
   const audioElem = useRef();
 
   useEffect(() => {
-    setTimeout(() => {
-      setIsPlaying(true);
-      if (isPlaying) {
-        audioElem.current.play();
-      } else {
-        audioElem.current.pause();
-      }
-    }, 2000);
+    window.onload = function loadFrame() {
+      setTimeout(() => {
+        setIsPlaying(true);
+      }, 2000);
+    };
     console.log(isPlaying);
-    console.log(audioElem.current);
+    if (isPlaying) {
+      audioElem.current.play();
+    } else {
+      audioElem.current.pause();
+    }
   }, [isPlaying]);
 
   return (
