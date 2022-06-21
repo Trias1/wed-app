@@ -19,27 +19,28 @@ import audioSrc from "../src/audio/westlife.mp3";
 import { useState } from "react";
 
 const App = () => {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(!true);
 
   const audioElem = useRef();
 
   useEffect(() => {
-    if (isPlaying) {
-      audioElem.current.play();
-    } else {
-      audioElem.current.pause();
-    }
+    setTimeout(() => {
+      setIsPlaying(true);
+      if (isPlaying) {
+        audioElem.current.play();
+      } else {
+        audioElem.current.pause();
+      }
+    }, 2000);
+    console.log(isPlaying);
+    console.log(audioElem.current);
   }, [isPlaying]);
 
   return (
     <>
       <div className="App">
         <div className="sound">
-          <audio
-            // src="https://s174.123apps.com/aconv/d/s174dtyFzeTc_mp3_LIHt0kDM.mp3"
-            src={audioSrc}
-            ref={audioElem}
-          />
+          <audio src={audioSrc} ref={audioElem} />
         </div>
         <Header
           isPlaying={isPlaying}

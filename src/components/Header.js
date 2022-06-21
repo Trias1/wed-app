@@ -8,7 +8,7 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 import { BiPauseCircle, BiPlayCircle } from "react-icons/bi";
 import { useState } from "react";
 
-const Header = ({ isPlaying, setIsPlaying }) => {
+const Header = ({ audioElem, isPlaying, setIsPlaying }) => {
   const [activeNav, setActiveNav] = useState("#");
 
   const PlayPause = () => {
