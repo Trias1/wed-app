@@ -7,7 +7,7 @@ import "../commoncss/invitations.css";
 const Invitation = () => {
   return (
     <section id="invitation">
-      <div className="section w-details-area center-text">
+      <div className="section w-details-area center-text pt-1">
         <div className="container">
           <div className="about__me-image">
             <img
