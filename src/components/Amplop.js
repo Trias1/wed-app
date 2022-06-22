@@ -21,8 +21,8 @@ const Amplop = () => {
                 src={bri}
                 alt=""
               />
-              <p>DEWI ASTRI</p>
-              <p>404401012231534</p>
+              <h4>DEWI ASTRI</h4>
+              <h4>404401012231534</h4>
             </div>
           </div>
         </div>

@@ -106,7 +106,7 @@
 
 
 /* ======= media queries (Medium Devices) ==== */
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .about__me-image h4 {
         margin-top: -10%;
         height: -5%;
@@ -163,7 +163,7 @@
 }
 
 /* ======= media queries (Medium Devices) ==== */
-@media screen and (max-width: 1100px) {
+@media (max-width: 1100px) {
     .about__me-image h4 {
         margin-top: -10%;
         height: -3%;
@@ -213,7 +213,7 @@
 }
 
 /* ======= media queries (Medium Devices) ==== */
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     .about__me-image h4 {
         margin-top: -20%;
         height: -3%;

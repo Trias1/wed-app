@@ -8,10 +8,10 @@ const Privasi = () => {
       <div className="section w-details-area center-text">
         <div className="container">
           <div>
-            <h5>
+            <h4>
               Acara ini mengikuti protokol kesehatan covid-19. Senantiasa
               kenakan masker dan jaga jarak
-            </h5>
+            </h4>
             <img className="kali-graf" src={aman} alt=""></img>
           </div>
         </div>

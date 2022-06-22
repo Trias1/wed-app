@@ -1,15 +1,22 @@
 import React from 'react';
-import wp from '../images/w.png'
+import '../commoncss/footer.css'
+import {SiWhatsapp} from 'react-icons/si'
+import {FaFacebookF} from 'react-icons/fa'
+import {FiInstagram} from 'react-icons/fi'
 
 const Contact = () => {
     return ( 
-<footer>
+	<footer>
 		<div className="container center-text">
-			<ul className="social-icons">
-				<li><a href="https://www.facebook.com/2Manoj1" target="_blank" rel="noopener noreferrer"><i className="icon icon-facebook"></i></a></li>
-				<li><a href="https://www.twitter.com/ManojMukherje19" target="_blank" rel="noopener noreferrer"><i className="icon icon-twitter"></i></a></li>
-				<li><a href="https://wa.me/918892525120" target="_blank" rel="noopener noreferrer"><img alt="WP" src={wp} /></a></li>
-			</ul>
+		<div className="footer__copyright">
+			<h4>&copy; By Dewi & Adi</h4>
+			</div>
+		<a href="#" className='footer__logo'>Powered by Digital Trias Zaen Mutaqin</a>
+			<div className="footer__socials">
+			<a href="https://api.whatsapp.com/send?phone=+6281311635074"><SiWhatsapp/></a>
+			<a href="https://www.instagram.com/tzm_12/"><FiInstagram/></a>
+			<a href="https://www.facebook.com/iaz.zaen/"><FaFacebookF/></a>
+			</div>
 		</div>
 	</footer>
         );

@@ -4,13 +4,14 @@
   "private": true,
   "homepage": "https://wedding-dewi-adi.netlify.app/",
   "dependencies": {
+    "@material-ui/icons": "^4.11.3",
     "gh-pages": "^2.1.1",
     "google-maps-react": "^2.0.6",
     "howler": "^2.2.3",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-icons": "^4.4.0",
-    "react-scripts": "^3.1.0"
+    "react-scripts": "^3.4.4"
   },
   "scripts": {
     "start": "react-scripts start",

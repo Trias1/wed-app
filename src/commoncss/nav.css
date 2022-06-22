@@ -36,7 +36,7 @@ html {
     color: var(--color-white);
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 991px) {
     .nav {
         background: rgba(0, 0, 0, 0.3);
         width: max-content;
@@ -67,8 +67,8 @@ html {
 }
 
 /* ======= media queries (Small Devices) ==== */
-
-@media screen and (max-width: 600px) {
+/* 
+@media (max-width: 600px) {
 
     .nav {
         background: rgba(0, 0, 0, 0.3);
@@ -97,11 +97,11 @@ html {
         transition: var(--transition);
     }
     
-}
+} */
 
 /* ======= media queries (Small Devices) ==== */
 
-@media screen and (max-width: 400px) {
+@media (max-width: 480px) {
 
     .nav {
         background: rgba(0, 0, 0, 0.3);
