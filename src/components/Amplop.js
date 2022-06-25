@@ -16,13 +16,12 @@ const Amplop = () => {
               </h4>
               <img
                 className="card-img-top"
-                width={"100px"}
-                height="300px"
+                style={{width: "20%", height: "20%"}}
                 src={bri}
                 alt=""
               />
               <h4>DEWI ASTRI</h4>
-              <h4>404401012231534</h4>
+              <h4> No Rekening : 404401012231534</h4>
             </div>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import React from "react";
 import "../commoncss/nav.css";
 import { AiOutlineHome } from "react-icons/ai";
-import { BiUser } from "react-icons/bi";
-import { FiBook } from "react-icons/fi";
+import { FcAbout } from "react-icons/fc";
+import { MdOutlineInsertInvitation } from "react-icons/md";
 import { RiServiceLine } from "react-icons/ri";
-import { BiMessageSquareDetail } from "react-icons/bi";
+import { MdOutlineMapsUgc } from "react-icons/md";
 import { BiPauseCircle, BiPlayCircle } from "react-icons/bi";
 import { useState } from "react";
 
@@ -26,23 +26,23 @@ const Header = ({ audioElem, isPlaying, setIsPlaying }) => {
           <AiOutlineHome />
         </a>
         <a
-          href="#weadingDate"
-          onClick={() => setActiveNav("#weadingDate")}
-          className={activeNav === "#weadingDate" ? "active" : ""}
-        >
-          <BiUser />
-        </a>
-        <a
           href="#keterangan"
           onClick={() => setActiveNav("#keterangan")}
           className={activeNav === "#keterangan" ? "active" : ""}
         >
-          <FiBook />
+          <FcAbout />
         </a>
         <a
           href="#invitation"
           onClick={() => setActiveNav("#invitation")}
           className={activeNav === "#invitation" ? "active" : ""}
+        >
+          <MdOutlineInsertInvitation />
+        </a>
+        <a
+          href="#weadingDate"
+          onClick={() => setActiveNav("#weadingDate")}
+          className={activeNav === "#weadingDate" ? "active" : ""}
         >
           <RiServiceLine />
         </a>
@@ -51,7 +51,7 @@ const Header = ({ audioElem, isPlaying, setIsPlaying }) => {
           onClick={() => setActiveNav("#maps")}
           className={activeNav === "#maps" ? "active" : ""}
         >
-          <BiMessageSquareDetail />
+          <MdOutlineMapsUgc />
         </a>
         <button>
           {isPlaying ? (

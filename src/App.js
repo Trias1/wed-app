@@ -18,6 +18,7 @@ import audioSrc from "../src/audio/westlife.mp3";
 import { useState } from "react";
 import Gallery from "./components/Gallery";
 import Fotter from "./components/Fotter";
+import Calonpasangan from "./components/Calonpasangan";
 
 const App = () => {
   const [isPlaying, setIsPlaying] = useState(!true);
@@ -53,6 +54,7 @@ const App = () => {
         <Keterangan />
         <CountDown />
         <Invitation />
+        <Calonpasangan/>
         <Weadingloaction />
         <Maps />
         <Gallery/>

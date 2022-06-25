@@ -17,92 +17,15 @@
     width: 50%;
 }
 
-.about__user {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 15%;
-}
 
 .about__mee {
     width: 90%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    display: grid;
-    place-items: center;
 }
 
 .about__mee-image {
     overflow: hidden;
 }
 
-.about__cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
-}
-
-.about__card h5{
-    text-align: center;
-    font-size: 2rem;
-    color: #000;
-    margin: 5rem 0 0rem -16rem;
-}
-
-.about__card p {
-    color: #000;
-    font-size: 2rem;
-    text-align: center;
-    margin: 5rem 0 0rem -16rem;
-}
-
-.about__userr {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 15%;
-}
-
-.about__userrr {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 15%;
-}
-
-.about__cardss {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
-}
-
-.about__cardd h5{
-    text-align: center;
-    font-size: 2rem;
-    color: #000;
-    margin: 5rem 0 0rem -5rem;
-}
-
-.about__cardd p {
-    text-align: center;
-    font-size: 2rem;
-    color: #000;
-    margin: 5rem 0 0rem -5rem;
-}
-
-.about__meee {
-    width: 90%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    display: grid;
-    place-items: center;
-}
-
-.about__meee-image {
-    margin: 0 0 0rem -10rem;
-    width: 50%;
-}
-
-.about__mee-image {
-    width: 50%;
-}
 
 
 /* ======= media queries (Medium Devices) ==== */

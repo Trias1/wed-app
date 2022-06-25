@@ -24,37 +24,6 @@ const Invitation = () => {
             </h5>
           </div>
         </div>
-        <div className="container about__user">
-          <div className="about__mee">
-            <div className="about__mee-image">
-              <img src={foto2} alt="" />
-            </div>
-          </div>
-          <div className="about__content">
-            <div className="about__cards">
-              <article className="about__card">
-                <h5>Adi Hidayatuloh, S. PD</h5>
-                <p>Putra dari Bapak Didi Mulyadi & ibu Yayah Adiah</p>
-              </article>
-            </div>
-          </div>
-        </div>
-
-        <div className="container about__userr">
-          <div className="about__contentt">
-            <div className="about__cardss">
-              <article className="about__cardd">
-                <h5>Dewi Astri, S. E</h5>
-                <p>Putri dari Bapak Iwa Kartiwa & ibu Tuti Tohati</p>
-              </article>
-            </div>
-          </div>
-          <div className="about__meee">
-            <div className="about__meee-image">
-              <img src={foto1} alt="" />
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
