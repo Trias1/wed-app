@@ -1,6 +1,9 @@
 import React from "react";
 import "../commoncss/weadingloaction.css";
 import { FiInstagram } from "react-icons/fi";
+import { MdDateRange } from "react-icons/md"
+import { GoLocation } from "react-icons/go"
+import { BsClock } from "react-icons/bs"
 
 const Weadingloaction = () => {
   return (
@@ -15,7 +18,7 @@ const Weadingloaction = () => {
                   <div className="d-flex mb-3">
                     <div className="p-2">
                       <a href="#blank" className="sosmedd">
-                        <FiInstagram />
+                        <MdDateRange />
                       </a>
                     </div>
                     <div className="p-2">
@@ -31,7 +34,7 @@ const Weadingloaction = () => {
                   <div className="d-flex mb-3">
                     <div className="p-2">
                       <a href="#blank" className="sosmedd">
-                        <FiInstagram />
+                        <BsClock />
                       </a>
                     </div>
                     <div className="p-2">
@@ -48,7 +51,7 @@ const Weadingloaction = () => {
                   <div className="d-flex mb-3">
                     <div className="p-2">
                       <a href="#blank" className="sosmed">
-                        <FiInstagram />
+                        <BsClock />
                       </a>
                     </div>
                     <div className="p-2">
@@ -64,7 +67,7 @@ const Weadingloaction = () => {
                   <div className="d-flex mb-3">
                     <div className="p-2">
                       <a href="#blank" className="sosmed">
-                        <FiInstagram />
+                        <GoLocation />
                       </a>
                     </div>
                     <div className="p-2">
