@@ -15,7 +15,7 @@ const Keterangan = () => {
                 diantaramu rasa kasih dan sayang. Sesugguhnya pada yang demikian
                 itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir.{" "}
               </span>
-              <p>(QS. Ar-Rum (30): 21)</p>
+              <p className="about__me-p">(QS. Ar-Rum (30): 21)</p>
             </div>
           </div>
 

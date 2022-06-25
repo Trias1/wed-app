@@ -1,5 +1,5 @@
 import React from "react";
-//import './weadingDate.css'
+import '../commoncss/weading.css'
 
 const WeadingDate = () => {
   return (
@@ -8,7 +8,9 @@ const WeadingDate = () => {
         <div className="display-table-cell">
           <div className="slider-content">
             <h3 className="pre-title">The Wedding of</h3>
-            <h1 className="title">Adi & Dewi Astri</h1>
+            <h1 className="title">Adi & Dewi </h1>
+            <h4>We invite you to celebrate our wedding</h4>
+            <h4>Minggu, 3 Juli 2022</h4>
           </div>
         </div>
       </div>

@@ -1,75 +1,44 @@
-.about__containerr {
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+.calon {
+    position: relative;
+    z-index: 1;
+    background-size: cover;
 }
 
-.about__mee {
+.img-fluid {
     width: 100%;
-    aspect-ratio: 1/1;
+    max-width: 200px;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg,
-        transparent, 
-        var(--color-primary), 
-        transparent
-        );
-    display: grid;
-    place-items: center;
-
-}
-
-.about__me-imagee {
-    border-radius: 2rem;
-    width: 100%;
-     max-width: 200px;
     height: auto;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
 }
 
-.about__me-imagee:hover {
-    transform: rotate(0);
-}
-
-.about__cards {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
-}
-
-.about__card {
-    background: var(--color-bg-variant);
+.footer__socials a {
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
     border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--transition);
 }
 
-.about__card:hover {
+.footer__socials a:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
 }
 
-.about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
+.justify-content-start h5{
+    font-size: 1.3em;
 }
 
-.about__card h5 {
-    font-size: 0.95rem;
+
+@media (max-width: 991px) {
+    .justify-content-start h5{
+        font-size: 1.2em;
+    }
 }
 
-.about__card small {
-    font-size: 0.6rem;
-    color: var(--color-light);
-}
-
-.about__content p {
-    margin: 2rem 0 2.6rem;
-    color: #000;
+@media (max-width: 480px) {
+    .justify-content-start h5{
+        font-size: 1.2em;
+    }
 }

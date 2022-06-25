@@ -52,6 +52,7 @@ footer a {
     color: var(--color-bg);
 }
 
+
 /* ======= media queries (Small Devices) ==== */
 
 @media (max-width: 600px) {

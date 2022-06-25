@@ -1,0 +1,13 @@
+.privasi {
+    margin-top: -7rem;
+}
+@media (max-width: 991px) {
+    .privasi {
+      
+    }
+}
+@media (max-width: 480px) {
+    .privasi {
+      margin-top: -2rem;
+    }
+}

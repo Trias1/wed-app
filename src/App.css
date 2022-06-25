@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap');
+
+
 html {
   font-size: 100%;
   height: 100%;
@@ -9,11 +13,13 @@ html {
   margin: 0px;
   padding: 0px;
   touch-action: manipulation;
+  scroll-behavior: smooth;
 }
+
 
 body {
   font-size: 16px;
-  font-family: "Bitter", serif;
+  font-family: 'Poppins', sans-serif;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -22,6 +28,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   word-wrap: break-word;
   color: #333;
+  /* background: var(--color-bg); */
+  /* color: var(--color-white); */
+  line-height: 1.7;
+  /* background-image: url(..); */
 }
 
 h1,
@@ -55,7 +65,7 @@ h6 {
 h1,
 h2,
 h3 {
-  font-family: "Playball", cursive;
+  font-family: 'Playball', cursive;
 }
 
 p {
@@ -104,7 +114,7 @@ button:active,
 button:hover,
 a b.light-color:hover {
   text-decoration: none;
-  color: #e45f74;
+  color: var(--color-bg);
 }
 
 b {
@@ -167,13 +177,13 @@ b.light-color {
   border-radius: 0.4rem;
   letter-spacing: 2px;
   margin-top: 10px;
-  border: 1px solid #e45f74;
-  background: #e45f74;
+  border: 1px solid var(--color-bg);
+  background: var(--color-bg);
   color: #fff;
 }
 
 .btn:hover {
-  color: #e45f74;
+  color: var(--color-bg);
   background: none;
 }
 
@@ -250,7 +260,7 @@ b.light-color {
 }
 
 .section .heading .heading-bottom {
-  margin-top: 20px;
+  margin-top: 0px;
   display: inline-block;
   width: 160px;
   height: 20px;
@@ -288,7 +298,7 @@ b.light-color {
 }
 
 .section .margin-bottom {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .center-text {
@@ -520,7 +530,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   height: 100vh;
   position: relative;
   z-index: 1;
-  background-image: url(./images/AYXE0148.JPG);
+  background-image: url(./images/bcs.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -582,7 +592,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 .counter-area {
   position: relative;
   z-index: 1;
-  background-image: url(./images/counter-1-1600x600.jpg);
+  background-color: var(--color-bg);
   background-size: cover;
   color: #fff;
 }
@@ -607,9 +617,9 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
   width: 120px;
   padding-top: 25px;
   border-radius: 100px;
-  border: 1px solid #f14e95;
+  border: 1px solid var(--color-bg);
   color: #fff;
-  background: rgba(241, 78, 149, 0.8);
+  background: var(--color-bg);
 
   animation: pulse 1s ease infinite;
 }
@@ -794,14 +804,14 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu {
 .ceremony-area {
   position: relative;
   z-index: 1;
-  background-image: url(./images/counter-1-1600x600.jpg);
+  background-color: var(--color-bg);
   background-size: cover;
   color: #fff;
 }
 .ceremony-areaa {
   position: relative;
   z-index: 1;
-  background-image: url(./images/AYXE0148.JPG);
+  background-image: url(./images/bcs.jpg);
   background-size: cover;
   color: #fff;
 }
@@ -1115,13 +1125,13 @@ footer .copyright {
     text-align: center;
   }
 }
-// Screen Resolusi 1536px
+/* // Screen Resolusi 1536px */
 /* @media only screen and (max-width: 1536px){
 	.main-slider {
 		height: 50vh;
 		position: relative;
 		z-index: 1;
-		background-image: url(./images/AYXE0148.JPG);
+		background-image: url(./images/bcs.jpg);
 		background-position: right 30% bottom 5%;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -1136,7 +1146,7 @@ footer .copyright {
     height: 50vh;
     position: relative;
     z-index: 1;
-    background-image: url(./images/AYXE0148.JPG);
+    background-image: url(./images/bcs.jpg);
     background-position: right 50% bottom 15%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1154,7 +1164,7 @@ footer .copyright {
     height: 50vh;
     position: relative;
     z-index: 1;
-    background-image: url(./images/AYXE0148.JPG);
+    background-image: url(./images/bcs.jpg);
     background-position: right 30% bottom 5%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1187,7 +1197,7 @@ footer .copyright {
     height: 50vh;
     position: relative;
     z-index: 1;
-    background-image: url(./images/AYXE0148.JPG);
+    background-image: url(./images/bcs.jpg);
     background-position: right 50% bottom 10%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1382,7 +1392,7 @@ footer .copyright {
     height: 50vh;
     position: relative;
     z-index: 1;
-    background-image: url(./images/AYXE0148.JPG);
+    background-image: url(./images/bcs.jpg);
     background-position: right 45% top 15%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1392,7 +1402,7 @@ footer .copyright {
   .counter-area {
     position: relative;
     z-index: 1;
-    background-image: url(./images/counter-1-1600x600.jpg);
+    background-color: var(--color-bg);
     background-size: cover;
     color: #fff;
   }

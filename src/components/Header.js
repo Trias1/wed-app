@@ -1,7 +1,7 @@
 import React from "react";
 import "../commoncss/nav.css";
 import { AiOutlineHome } from "react-icons/ai";
-import { FcAbout } from "react-icons/fc";
+import { TbFileDescription } from "react-icons/tb";
 import { MdOutlineInsertInvitation } from "react-icons/md";
 import { RiServiceLine } from "react-icons/ri";
 import { MdOutlineMapsUgc } from "react-icons/md";
@@ -30,7 +30,7 @@ const Header = ({ audioElem, isPlaying, setIsPlaying }) => {
           onClick={() => setActiveNav("#keterangan")}
           className={activeNav === "#keterangan" ? "active" : ""}
         >
-          <FcAbout />
+          <TbFileDescription />
         </a>
         <a
           href="#invitation"

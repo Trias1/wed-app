@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaFacebookF} from 'react-icons/fa'
+import {FiInstagram} from 'react-icons/fi'
 import foto2 from "../images/MempelaiPria.JPG";
 import foto1 from "../images/AYXE0057.JPG";
 import '../commoncss/calonpasangan.css'
@@ -8,45 +10,64 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 
 const Calonpasangan = () => {
   return (
-    <section className="section w-details-area center-text">    
-    <div className="container about__containerr">
-        <div className="about__mee">
-          <div className="about__me-imagee">
-            <img src={foto2 }alt="About Imagee" />
+    <div className="container calon">
+    <div className="row mt-5">
+          <div className="col">
+            <div className="d-flex justify-content-end">
+              {" "}
+              <img
+                src={foto2}
+                className="img-fluid"
+                width={50}
+                max-width={"400px"}
+                height={50}
+              />
+            </div>
+          </div>
+          <div className="col">
+            <div className="d-flex justify-content-start">
+              <h5>Adi Hidayatuloh, S.Pd.</h5>
+            </div>
+            <div className="d-flex justify-content-start">
+              <h5>Didi Mulyadi dan Yayah Adiah</h5>
+            </div>
+            <div className="d-flex justify-content-start">
+              <div className="footer__socials">
+                <a href="https://www.instagram.com/adihidayatuloh/" className='sosmed'><FiInstagram/></a>
+                {/* <a href="https://www.facebook.com/iaz.zaen/" className='sosmed'><FaFacebookF/></a>                */}
+              </div>
+            </div>
           </div>
         </div>
-
-        <div className="about__content">
-            <div className="about__cards">
-              <article className='about__card'>
-                  <FaAward className='about__icon'/>
-                  <h5>Experience</h5>
-                  <small>1 Years Working</small>
-              </article>
-              
-              <article className='about__card'>
-                  <FiUsers className='about__icon'/>
-                  <h5>Clients</h5>
-                  <small>200+ </small>
-              </article>
-
-              <article className='about__card'>
-                  <VscFolderLibrary className='about__icon'/>
-                  <h5>Projects</h5>
-                  <small>3+ completed</small>
-              </article>
+        <div className="row mt-5">
+          <div className="col">
+            <div className="d-flex justify-content-end">
+              {" "}
+              <img
+                src={foto1}
+                className="img-fluid"
+                width={50}
+                max-width={"400px"}
+                height={50}
+              />
             </div>
-
-            <p>
-            Hello introducing myself Trias, from Jakarta, I recently graduated from the National University majoring in Information Systems with an interest in Technology. 
-            My expertise includes, but is not limited to Java, Android, and MySQL. 
-            I'm currently looking for a job opportunity that can give me the opportunity to grow
-            </p>
-
-            <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          </div>
+          <div className="col">
+            <div className="d-flex justify-content-start">
+              <h5>Dewi Astri, S.E.</h5>
+            </div>
+            <div className="d-flex justify-content-start">
+              <h5>Iwa Kartiwa dan Tuti Tohati</h5>
+            </div>
+            <div className="d-flex justify-content-start">
+              <div className="footer__socials">
+                <a href="https://www.instagram.com/dedew_astri/" className='sosmed'><FiInstagram/></a>
+                {/* <a href="https://www.facebook.com/iaz.zaen/" className='sosmed'><FaFacebookF/></a>                */}
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
   )
 }
 

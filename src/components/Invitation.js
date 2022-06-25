@@ -7,7 +7,7 @@ import "../commoncss/invitations.css";
 const Invitation = () => {
   return (
     <section id="invitation">
-      <div className="section w-details-area center-text pt-1">
+      <div className="section w-detail-area center-text pt-1">
         <div className="container">
           <div className="about__me-image">
             <img
@@ -17,7 +17,7 @@ const Invitation = () => {
               src={bismillah}
               alt="kaligrafi"
             />
-            <h4>Assalamu`alaikum Warahmatullaahi Wabarakaatuh</h4>
+            <h4>Assalamu`alaikum Warahmatullaahi Wabarakatuh</h4>
             <h5>
               Dengan memohon rahmat Allah S.W.T kami bermaksud menyelenggarakan
               pernikahan putra-putri kami:
