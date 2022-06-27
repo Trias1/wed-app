@@ -12,10 +12,10 @@ const Amplop = () => {
           <div className="card">
             <div className="card-body">
               <h3>Amplop</h3>
-              <h4>
+              <h5 className="nama">
                 Jika Bapak/Ibu/Saudara/i ingin mengirimkan hadiah pernikahan
                 kepada mempelai pengantin, silahkan mengirimkannya ke :
-              </h4>
+              </h5>
               <div className="row mt-5">
               <div className="col">
                 <div className="d-flex justify-content-center">
@@ -41,7 +41,7 @@ const Amplop = () => {
                 <h4>Nama : Adi</h4>
                 </div>
                 <div className="d-flex justify-content-center">
-                <h4> No Rekening : 404401012253536</h4>
+                <h5> No Rekening : 404401012253536</h5>
                 </div>
               </div>
               <div className="col">

@@ -1,5 +1,9 @@
 .privasi {
     margin-top: -7rem;
+    text-align: justify;
+}
+.kali {
+    margin-top: 2rem;
 }
 @media (max-width: 991px) {
     .privasi {

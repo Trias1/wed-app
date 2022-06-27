@@ -7,7 +7,7 @@ import WeadingDate from "./components/WeadingDate";
 import CountDown from "./components/CountDown";
 import Invitation from "./components/Invitation";
 import Weadingloaction from "./components/Weadingloaction";
-import Contact from "./components/Contact";
+import Comments from "./components/comment/Comments";
 import Keterangan from "./components/Keterangan";
 import Maps from "./components/Maps";
 import Amplop from "./components/Amplop";
@@ -39,8 +39,10 @@ const App = () => {
     }
   }, [isPlaying]);
 
+
   return (
     <>
+      
       <div className="App">
         <div className="sound">
           <audio src={audioSrc} ref={audioElem} />
@@ -60,7 +62,7 @@ const App = () => {
         <Gallery/>
         <Amplop />
         <Privasi />
-        <Contact />
+        <Comments />
         <Fotter/>
       </div>
     </>
