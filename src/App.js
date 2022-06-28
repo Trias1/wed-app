@@ -7,11 +7,14 @@ import WeadingDate from "./components/WeadingDate";
 import CountDown from "./components/CountDown";
 import Invitation from "./components/Invitation";
 import Weadingloaction from "./components/Weadingloaction";
-import Comments from "./components/comment/Comments";
 import Keterangan from "./components/Keterangan";
 import Maps from "./components/Maps";
 import Amplop from "./components/Amplop";
 import Privasi from "./components/Privasi";
+import AddBook from "./components/comments/AddBook";
+import BooksList from "./components/comments/BooksList";
+
+import { Container,  Row, Col } from "react-bootstrap";
 
 import audioSrc from "../src/audio/westlife.mp3";
 
@@ -21,6 +24,7 @@ import Fotter from "./components/Fotter";
 import Calonpasangan from "./components/Calonpasangan";
 
 const App = () => {
+  
   const [isPlaying, setIsPlaying] = useState(!true);
 
   const audioElem = useRef();
@@ -38,6 +42,14 @@ const App = () => {
       audioElem.current.pause();
     }
   }, [isPlaying]);
+
+  const [bookId, setBookId] = useState("");
+
+  const getBookIdHandler = (id) => {
+    console.log("The ID of document to be edited: ", id);
+    setBookId(id);
+  };
+
 
 
   return (
@@ -62,7 +74,22 @@ const App = () => {
         <Gallery/>
         <Amplop />
         <Privasi />
-        <Comments />
+        
+<Container style={{ width: "400px" }}>
+        <Row>
+          <Col>
+            <AddBook id={bookId} setBookId={setBookId} />
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col>
+            <BooksList getBookId={getBookIdHandler} />
+          </Col>
+        </Row>
+      </Container>
+
         <Fotter/>
       </div>
     </>

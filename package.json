@@ -10,6 +10,7 @@
     "google-maps-react": "^2.0.6",
     "howler": "^2.2.3",
     "react": "^16.9.0",
+    "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^16.9.0",
     "react-icons": "^4.4.0",
     "react-scripts": "^3.4.4",
